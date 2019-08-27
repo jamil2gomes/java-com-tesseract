@@ -9,7 +9,7 @@ public class ConnectionFactory {
 	public Connection getConnectionMySQL() {
 		try {
 			return DriverManager.getConnection("jdbc:mysql://localhost/portaria?useSSL=false",
-					                         "root", "J4m1l!123");
+					                         "root", "");
 		
 		} catch (SQLException e) {
 			throw new RuntimeException(e);
